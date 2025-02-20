@@ -30,3 +30,4 @@ Class "PetShop" juga terdiri dari constructor (untuk melakukan input nilai atrib
 ![WhatsApp Image 2025-02-20 at 22 14 59_f64a6e19](https://github.com/user-attachments/assets/486d7cbe-8f62-4f6b-9cd0-073e318df6c4)
 ![WhatsApp Image 2025-02-20 at 22 14 59_7521e54b](https://github.com/user-attachments/assets/f3827f47-2de3-4699-8135-6fc2206509fa)
 ![WhatsApp Image 2025-02-20 at 22 14 59_2f48cb79](https://github.com/user-attachments/assets/e0f4fdf0-a7b5-45b2-9c3e-57ccd8a550c3)
+![WhatsApp Image 2025-02-20 at 22 20 24_21ae07db](https://github.com/user-attachments/assets/1284a6e2-ac32-4bdc-a41c-5b6ece824607)
