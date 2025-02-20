@@ -54,8 +54,30 @@ while not stop:
                 items.setHarga(hargaBaru)
 
                 print("Data sudah diperbarui!")
-
+        if not found:
+            print("Tidak ditemukan")
     elif masukkan == 4:
-        pass
+        # Mengahapus data yang diinginkan
+        idCari = input("Masukkan ID barang yang ingin dihapus : ")
+        found = False
+        for i, items in enumerate(listBarang):
+            if idCari == items.getID() and not found:
+                found = True
+                del listBarang[i]
+                print("Berhasil dihapus!")
+        if not found:
+            print("Tidak ditemukan")
     elif masukkan == 5:
-        pass
+        # Mencari data yang diinginkan berdasarkan nama produk
+        nameCari = input("Masukkan nama barang yang ingin dicari : ")
+        found = False
+
+        for items in listBarang:
+            if items.getName() == nameCari and not found:
+                found = True
+                print("------------------------")
+                print(f"Id      : {items.getID()}")
+                print(f"Name    : {items.getName()}")
+                print(f"Kategori: {items.getKategori()}")
+                print(f"Harga   : {items.getHarga()}")
+                print("------------------------")
