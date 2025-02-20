@@ -42,6 +42,7 @@ public class Main{
                     System.out.println("Peralatan berhasil ditambahkan!");
                     break;
                 case 3:
+                    // Mengubah data yang diingkan
                     System.out.println("Masukkan ID yang ingin diubah:");
                     String IdCari = scanner.next();
 
