@@ -17,12 +17,12 @@ Class "PetShop" juga terdiri dari constructor (untuk melakukan input nilai atrib
   Method ini digunakan untuk mengubah nilai atribut dari objek (ID, name, kategori, harga).
 # Alur Program
 Ketika program dimulai, akan memunculkan sebuah menu yang berisi option-option sebagai berikut:
-1   = Tampilkan list barang
-2   = Tambah barang ke list
-3   = Ubah data barang list
-4   = Hapus data barang list
-5   = Cari barang dalam list
--1  = Keluar dari program
+- 1   = Tampilkan list barang
+- 2   = Tambah barang ke list
+- 3   = Ubah data barang list
+- 4   = Hapus data barang list
+- 5   = Cari barang dalam list
+- -1  = Keluar dari program
 
 1. Tampilkan list barang
 Ketika option ini dipilih, akan melakukan for untuk setiap objek yang ada di dalam list, kemudian memanggil method display untuk memunculkan nilai-nilai atribut dari objek tersebut.
@@ -32,17 +32,14 @@ Ketika dipilih, akan meminta masukkan berupa ID, name, kategori, serta harga. Ke
 
 3. Ubah data barang list
 Ketika dipilih, akan meminta masukkan sebagai ID yang ingin dicari. Kemudian membuat sebuah marker boolean bernama 'found' dan memiliki value False. Lalu akan mengiterasi list sampai objek dengan ID yang dicari ditemukan. Ketika ketemu, maka marker found akan berubah menjadi True dan akan meminta masukkan baru untuk nilai di dalam atribut (ID, name, kategori, harga). Ketika sudah berhasil diubah, akan menampilkan pesan "Berhasil dihapus!".
-
 Apabila barang yang dicari tidak ditemukan, maka akan menampilkan pesan "Tidak ditemukan".
 
 4. Hapus data barang list
 Ketika dipilih, akan meminta masukkan sebagai ID yang ingin dicari. Kemudian membuat sebuah marker boolean bernama 'found' dan memiliki value False. Lalu akan mengiterasi list sampai objek dengan ID yang dicari ditemukan. Ketika ketemu, maka marker found akan berubah menjadi True dan objek tersebut akan dihapus dari list.
-
 Apabila barang yang dicari tidak ditemukan, maka akan menampilkan pesan "Tidak ditemukan".
 
 5. Cari barang dalam list
 Ketika dipilih, akan meminta masukkan sebagai nama yang ingin dicari. Kemudian akan membuat sebuah marker boolean bernama 'found' dan memiliki value False. Lalu akan mengiterasi list sampai objek dengan nama yang dicari ditemukan. Ketika ketemu, maka marker found akan berubah menjadi True dan akan memanggil method display.
-
 Apabila barang yang dicari tidak ditemukan, maka akan menampilkan pesan "Tidak ditemukan".
 
 -1 digunakan untuk keluar dari program.
