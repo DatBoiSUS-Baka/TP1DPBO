@@ -60,3 +60,7 @@ Apabila barang yang dicari tidak ditemukan, maka akan menampilkan pesan "Tidak d
 ![WhatsApp Image 2025-02-20 at 22 20 24_21ae07db](https://github.com/user-attachments/assets/1284a6e2-ac32-4bdc-a41c-5b6ece824607)
 
 # Dokumentasi PHP
+![WhatsApp Image 2025-02-21 at 11 54 14_d61fea89](https://github.com/user-attachments/assets/e48c3d23-a368-4045-972b-6d86acd24035)
+![WhatsApp Image 2025-02-21 at 11 54 14_c79716de](https://github.com/user-attachments/assets/c7cb5e6e-e98f-4dbf-aaba-cc99871c2d97)
+![WhatsApp Image 2025-02-21 at 11 54 13_d78572a1](https://github.com/user-attachments/assets/0ced096c-b0b2-4d10-b5fd-2716da786958)
+![WhatsApp Image 2025-02-21 at 11 54 13_434e845f](https://github.com/user-attachments/assets/06062414-fd92-4189-9ae8-5cd476640ed7)
