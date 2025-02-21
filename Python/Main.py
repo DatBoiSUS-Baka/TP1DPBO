@@ -75,9 +75,4 @@ while not stop:
         for items in listBarang:
             if items.getName() == nameCari and not found:
                 found = True
-                print("------------------------")
-                print(f"Id      : {items.getID()}")
-                print(f"Name    : {items.getName()}")
-                print(f"Kategori: {items.getKategori()}")
-                print(f"Harga   : {items.getHarga()}")
-                print("------------------------")
+                items.display()

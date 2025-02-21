@@ -93,12 +93,7 @@ public class Main{
                     for(PetShop item : listBarang){
                         if(item.getName().equals(nameCari) && !find){
                             find = true;
-                            System.out.println("----------------------------");
-                            System.out.println("ID          :" + item.getID());
-                            System.out.println("Nama        :" + item.getName());
-                            System.out.println("Kategori    :" + item.getKategori());
-                            System.out.println("Harga       :" + item.getHarga());
-                            System.out.println("----------------------------");
+                            item.display();
                         }
                     }
                     if(!find){

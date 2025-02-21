@@ -16,6 +16,36 @@ Class "PetShop" juga terdiri dari constructor (untuk melakukan input nilai atrib
 - change
   Method ini digunakan untuk mengubah nilai atribut dari objek (ID, name, kategori, harga).
 # Alur Program
+Ketika program dimulai, akan memunculkan sebuah menu yang berisi option-option sebagai berikut:
+1   = Tampilkan list barang
+2   = Tambah barang ke list
+3   = Ubah data barang list
+4   = Hapus data barang list
+5   = Cari barang dalam list
+-1  = Keluar dari program
+
+1. Tampilkan list barang
+Ketika option ini dipilih, akan melakukan for untuk setiap objek yang ada di dalam list, kemudian memanggil method display untuk memunculkan nilai-nilai atribut dari objek tersebut.
+
+2. Tambah barang ke list
+Ketika dipilih, akan meminta masukkan berupa ID, name, kategori, serta harga. Kemudian akan menginstansiasi objek baru di dalam list dan menggunakan masukkan tadi sebagai argumen (initial value).
+
+3. Ubah data barang list
+Ketika dipilih, akan meminta masukkan sebagai ID yang ingin dicari. Kemudian membuat sebuah marker boolean bernama 'found' dan memiliki value False. Lalu akan mengiterasi list sampai objek dengan ID yang dicari ditemukan. Ketika ketemu, maka marker found akan berubah menjadi True dan akan meminta masukkan baru untuk nilai di dalam atribut (ID, name, kategori, harga). Ketika sudah berhasil diubah, akan menampilkan pesan "Berhasil dihapus!".
+
+Apabila barang yang dicari tidak ditemukan, maka akan menampilkan pesan "Tidak ditemukan".
+
+4. Hapus data barang list
+Ketika dipilih, akan meminta masukkan sebagai ID yang ingin dicari. Kemudian membuat sebuah marker boolean bernama 'found' dan memiliki value False. Lalu akan mengiterasi list sampai objek dengan ID yang dicari ditemukan. Ketika ketemu, maka marker found akan berubah menjadi True dan objek tersebut akan dihapus dari list.
+
+Apabila barang yang dicari tidak ditemukan, maka akan menampilkan pesan "Tidak ditemukan".
+
+5. Cari barang dalam list
+Ketika dipilih, akan meminta masukkan sebagai nama yang ingin dicari. Kemudian akan membuat sebuah marker boolean bernama 'found' dan memiliki value False. Lalu akan mengiterasi list sampai objek dengan nama yang dicari ditemukan. Ketika ketemu, maka marker found akan berubah menjadi True dan akan memanggil method display.
+
+Apabila barang yang dicari tidak ditemukan, maka akan menampilkan pesan "Tidak ditemukan".
+
+-1 digunakan untuk keluar dari program.
 
 # Dokumentasi Java
 ![WhatsApp Image 2025-02-19 at 18 44 34_5b894374](https://github.com/user-attachments/assets/1ac86c53-bd64-4743-a656-d4a2c1615019)
@@ -31,3 +61,5 @@ Class "PetShop" juga terdiri dari constructor (untuk melakukan input nilai atrib
 ![WhatsApp Image 2025-02-20 at 22 14 59_7521e54b](https://github.com/user-attachments/assets/f3827f47-2de3-4699-8135-6fc2206509fa)
 ![WhatsApp Image 2025-02-20 at 22 14 59_2f48cb79](https://github.com/user-attachments/assets/e0f4fdf0-a7b5-45b2-9c3e-57ccd8a550c3)
 ![WhatsApp Image 2025-02-20 at 22 20 24_21ae07db](https://github.com/user-attachments/assets/1284a6e2-ac32-4bdc-a41c-5b6ece824607)
+
+# Dokumentasi PHP
