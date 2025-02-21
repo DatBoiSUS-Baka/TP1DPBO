@@ -42,7 +42,7 @@ Apabila barang yang dicari tidak ditemukan, maka akan menampilkan pesan "Tidak d
 Ketika dipilih, akan meminta masukkan sebagai nama yang ingin dicari. Kemudian akan membuat sebuah marker boolean bernama 'found' dan memiliki value False. Lalu akan mengiterasi list sampai objek dengan nama yang dicari ditemukan. Ketika ketemu, maka marker found akan berubah menjadi True dan akan memanggil method display.
 Apabila barang yang dicari tidak ditemukan, maka akan menampilkan pesan "Tidak ditemukan".
 
--1 digunakan untuk keluar dari program.
+6. -1 digunakan untuk keluar dari program.
 
 # Dokumentasi Java
 ![WhatsApp Image 2025-02-19 at 18 44 34_5b894374](https://github.com/user-attachments/assets/1ac86c53-bd64-4743-a656-d4a2c1615019)
